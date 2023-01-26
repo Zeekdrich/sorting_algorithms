@@ -62,7 +62,7 @@ void bitonic_sort_split(int *array, size_t size, size_t low, size_t n,
 {
 	size_t m;
 
-if ((array != NULL) && (n > 1))
+	if ((array != NULL) && (n > 1))
 	{
 		m = n / 2;
 		printf("Merging [%d/%d] (%s):\n",
